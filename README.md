@@ -64,3 +64,42 @@ requirements.txt: Lists the Python dependencies required for the project.
 README.md: Provides an overview of the project, installation instructions, and usage.
 
 main.py: The main entry point for running the application.
+
+++++++++++++++++++++++++++++++++++++++++++++++
+The folder structure is created using the python file "create_structure.py" as shown b elow:
+
+Explanation:
+
+Folder Structure Definition: The folder_structure dictionary defines the structure you want to create, with directories as keys and nested dictionaries or empty strings for files.
+
+Function create_structure:
+
+Takes a base_path and a structure dictionary.
+Iterates through the items in the structure.
+Creates directories using os.makedirs() and files using open().
+Execution: The script calls create_structure() with "." as the base path, which creates the folders and files in the current directory.
+
+Running the Script:
+After running the script, you will have the folder structure in your local directory. You can then initialize a Git repository, add the files, commit, and push to your GitHub repository:
+
+Copy
+git init
+git add .
+git commit -m "Initial folder structure for fraud detection project"
+git remote add origin <YOUR_GITHUB_REPO_URL>
+git push -u origin master
+Replace <YOUR_GITHUB_REPO_URL> with the actual URL of your GitHub repository. This will upload your newly created folder structure to GitHub.
+Save the script to a Python file, e.g., create_structure.py.
+
+After running the script, you will have the folder structure in your local directory. You can then initialize a Git repository, add the files, commit, and push to your GitHub repository:
+
+Copy
+git init
+git add .
+git commit -m "Initial folder structure for fraud detection project"
+git remote add origin <YOUR_GITHUB_REPO_URL>
+git push -u origin master
+Replace <YOUR_GITHUB_REPO_URL> with the actual URL of your GitHub repository. This will upload your newly created folder structure to GitHub.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
