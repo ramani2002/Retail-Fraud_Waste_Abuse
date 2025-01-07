@@ -1,3 +1,6 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ramani2002/Retail-Fraud_Waste_Abuse/master)
+
+
 # Retail-Fraud_Waste_Abuse
 
 This  is the folder structure for the application - these folders will be created in the repository:
